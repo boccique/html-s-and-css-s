@@ -1,0 +1,21 @@
+h1{
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+
+.email-form{
+    margin:30px;
+
+}
+
+
+input.email{
+    margin-bottom: 5px;
+}
+
+input.password{
+    margin-bottom: 5px;
+}
