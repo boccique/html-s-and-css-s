@@ -35,7 +35,7 @@
     transform: translate(490px, 170px);
 }
 
-.container .box .ball-1{
+.container .ball-1{
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -43,7 +43,7 @@
     transform: translate(-250px, 200px);
     position: absolute;
 }
-.container .box .ball-2{
+.container .ball-2{
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -51,7 +51,7 @@
     transform: translate(-10px, -220px);
     position: absolute;
 }
-.container .box .ball-3{
+.container .ball-3{
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -60,7 +60,13 @@
     position: absolute;
 }
 
-.cp
+.container .box{
+    height: 86vh;
+    width: 75%;
+    padding: 0,20px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+}
 
 
 
