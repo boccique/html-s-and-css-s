@@ -22,7 +22,7 @@
     width: 330px;
     border-radius: 50%;
     background: linear-gradient(#08ffe6, #fcd200);
-    transform: translate(-490px, -150px);
+    transform: translate(-780px, -350px);
 }
 
 .container::after{
@@ -32,7 +32,7 @@
     width: 300px;
     border-radius: 50%;
     background: linear-gradient(#fcd200, #fc002e);
-    transform: translate(490px, 170px);
+    transform: translate(780px, 370px);
 }
 
 .container .ball-1{
@@ -66,6 +66,11 @@
     padding: 0,20px;
     background: rgba(255, 255, 255, 0.1);
     z-index: 10;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+
 }
 
 
