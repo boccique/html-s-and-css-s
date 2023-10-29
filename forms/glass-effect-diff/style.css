@@ -20,5 +20,7 @@
     position: absolute;
     height: 330px;
     width: 330px;
-    
+    border-radius: 50%;
+    background: linear-gradient(#08ffe6, #fcd200);
+    transform: translate(-490px, -150px);
 }
