@@ -24,3 +24,43 @@
     background: linear-gradient(#08ffe6, #fcd200);
     transform: translate(-490px, -150px);
 }
+
+.container::after{
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: linear-gradient(#fcd200, #fc002e);
+    transform: translate(490px, 170px);
+}
+
+.container .box .ball-1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #04f504;
+    transform: translate(-250px, 200px);
+    position: absolute;
+}
+.container .box .ball-2{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #08e2ff;
+    transform: translate(-10px, -220px);
+    position: absolute;
+}
+.container .box .ball-3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ffc404;
+    transform: translate(150px, 250px);
+    position: absolute;
+}
+
+.cp
+
+
+
