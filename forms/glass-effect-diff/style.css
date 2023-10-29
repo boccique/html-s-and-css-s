@@ -40,7 +40,7 @@
     width: 30px;
     border-radius: 50%;
     background-color: #04f504;
-    transform: translate(-250px, 200px);
+    transform: translate(-450px, 390px);
     position: absolute;
 }
 .container .ball-2{
@@ -48,7 +48,7 @@
     width: 70px;
     border-radius: 50%;
     background-color: #08e2ff;
-    transform: translate(-10px, -220px);
+    transform: translate(-100px, -420px);
     position: absolute;
 }
 .container .ball-3{
@@ -56,7 +56,7 @@
     width: 50px;
     border-radius: 50%;
     background-color: #ffc404;
-    transform: translate(150px, 250px);
+    transform: translate(150px, 440px);
     position: absolute;
 }
 
