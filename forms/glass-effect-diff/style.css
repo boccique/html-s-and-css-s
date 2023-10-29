@@ -3,4 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     color: #ffffff;
+    list-style: none;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #000000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container::before{
+    content: '';
+    position: absolute;
+    height: 330px;
+    width: 330px;
+    
 }
