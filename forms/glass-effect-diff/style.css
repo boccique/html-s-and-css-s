@@ -87,6 +87,7 @@
     padding: 0 20px;
 }
 .containere .box nav ul li a{
+    decoration: none;
     font-size: 13px;
     cursor: pointer;
 }
@@ -113,8 +114,36 @@
     position: absolute;
     margin-top: 70px;
 }
+.container .box .contains .section-1 h1{
+    font-size: 75px;
+}
+.container .box .contains .section-1 h3{
+    font-size: 36px;
+}
+.container .box .contains .section-1 p{
+    margin-top: 5px;
 
+}
+.container .box .contains .section-1 .button{
+    margin-top: 50px;
+}
+.container .box .contains .section-1 .button a{
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.container .box .contains .section-1 .button a:hover{
+    background: #fff;
+    color: #000;
 
+}
+span{
+    color: #fc002e;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
 
 
 
