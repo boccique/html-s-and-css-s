@@ -73,6 +73,36 @@
     backdrop-filter: blur(10px);
     box-shadow: -15px 17px 17px rgba(10,10,10,0.25);
 }
+.container .box nav{
+    height: 7%;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; margin: 15px auto;
+    padding: 20px;
+}
+.container .box nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.containere .box nav ul li a{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
