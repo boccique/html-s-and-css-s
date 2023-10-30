@@ -87,7 +87,18 @@
     padding: 0 20px;
 }
 .containere .box nav ul li a{
-    
+    font-size: 13px;
+    cursor: pointer;
+}
+.container .box nav ul li a:hover{
+    color: #ffc404
+}
+.container .box nav .logo{
+    font-size: 35px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 20px;
+
 }
 
 
