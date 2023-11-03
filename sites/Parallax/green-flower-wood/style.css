@@ -35,10 +35,43 @@ header{
     margin: 0 10px;
     font-weight: 500;
 }
-.navigation a:hover{
+.navigation a:hover, .navigation a.active{
     background: #359381;
     color: #ffffff;
 }
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
