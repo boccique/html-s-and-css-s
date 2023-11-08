@@ -7,9 +7,6 @@
     list-style: none;
     text-decoration: none;
 }
-body{
-    background: #204a75;
-}
 header{
     position: fixed;
     right: 0;
@@ -48,7 +45,14 @@ header{
     cursor: pointer;
     display: none;
 }
-
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #1d5891 0%, #40699f 28.53%, #5895b2 75.53% );
+    position: relative;
+    display: grid;
+}
 
 
 
