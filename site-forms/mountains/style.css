@@ -41,11 +41,28 @@ form ion-icon{
     border-bottom: 2px solid white;
     margin: 30px 0px
 }
-
-
-
-
-
+.input-box input:focus ~ label,
+.input-box input:valid ~ label{
+    transform: translateY(-30px);
+}
+.input-box label{
+    transition: .3s;
+    user-select: none;
+    position: absolute;
+}
+.input-box input{
+    background: none;
+    outline: none;
+    border: none;
+    width: 75%;
+    height: 25px;
+    z-index: 2;
+    font-size: 20px;
+    color: white;
+}
+::selection {
+background: #ffb7b7; /* Safari */
+}
 
 
 
