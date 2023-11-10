@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(mount.avif);
+    background-image: url(house.jpg);
     background-size: cover;
 }
 form{
@@ -66,11 +66,11 @@ form ion-icon{
 .light{
     display: none;
     position: absolute;
-    width: 90%;
+    width: 82%;
     height: 25px;
     left: 0;
-    bottom: 2px;
-    background-color: white;
+    bottom: 210px;
+    background-color: #d2bb71;
     border-radius: 4px;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -111,14 +111,34 @@ form button{
 }
 form button::before, form button::after{
     content:"";
+    position: absolute;
+    background-color: white;
+    width: 0;
+    height: 100%;
+    top: 0;
+    border-radius: 20px;
+    transition: .5s;
+    z-index: -1;
 }
-
-/*10.07 timing*/
-
-
-
-
-
+form button::before{
+    left: 0;
+}
+form button::after{
+    right: 0;
+}
+form button:hover::before, form button:hover::after{
+    width: 60;
+}
+/*form button:hover{*/
+/*    color: black;*/
+/*}*/
+.Register-box{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.Register-box h5{
+    cursor: pointer;
+}
 
 
 
