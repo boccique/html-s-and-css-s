@@ -82,6 +82,9 @@ nav img{
     background: #f44336;
     transition: 0.5s;
 }
+nav .fa{
+    display: none;
+}
 
 @media(max-width: 700px){
     .text-box h1{
@@ -99,6 +102,15 @@ nav img{
         right: 0;
         text-aling: left;
         z-index: 2;
+
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        font-size: 22px;
+        margin: 10px;
+        color: white;
+        cursor: pointer;
     }
 }
 
