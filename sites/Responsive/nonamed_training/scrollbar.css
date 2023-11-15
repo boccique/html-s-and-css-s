@@ -1,0 +1,29 @@
+html {
+  --scrollbarBG: #1d5891;
+  --thumbBG: #67a9cb;
+}
+
+body::-webkit-scrollbar {
+  width: 9px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+
+/*highing part*/
+::selection {
+background: #67a9cb; /* Safari */
+}
+::-moz-selection {
+background: #67a9cb; /* Firefox */
+}
