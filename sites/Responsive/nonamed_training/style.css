@@ -160,29 +160,6 @@ h3{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 
 }
-@media(max-width: 700px){
-    .row{
-        flex-direction: column;
-    }
-}
-/*campus*/
-.campus{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.campus-col{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-.campus-col img{
-    width: 100%;
-}
-
 .layer{
     background: transparent;
     height: 100%;
@@ -211,9 +188,45 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
-
-
-
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+/*campus*/
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
 
 
 
